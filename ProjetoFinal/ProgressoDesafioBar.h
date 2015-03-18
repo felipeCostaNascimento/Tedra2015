@@ -20,7 +20,7 @@
     int posAtual, nAcertos, nErros;
 }
 
-@property id<ProgressDesafioBarDelegate> myDelegate;
+@property (weak) id<ProgressDesafioBarDelegate> myDelegate;
 
 -(id)initWithBolinhas:(int)nBolinhas;
 -(int)getNAcertos;

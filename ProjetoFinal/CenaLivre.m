@@ -139,7 +139,7 @@ static const uint32_t categoriaCaixa = 0x1 << 1;
     [iconeTemp setCenter:CGPointMake(point.x, point.y)];
     
     if (recognizer.state == UIGestureRecognizerStateEnded) {
-        //NSLog(@"terminou gesture");
+        ////NSLog(@"terminou gesture");
         [self verificaPosicaoIcone:iconeTemp];
         [iconeTemp removeFromSuperview];
         iconeTemp = nil;
@@ -203,7 +203,7 @@ static const uint32_t categoriaCaixa = 0x1 << 1;
     
     
     if (posicaoXIcone < posicaoXMenu) {
-        NSLog(@"esta dentro");
+        //NSLog(@"esta dentro");
     }else{
         [self identificaIcone:icone];
         [menu abrirFechar];
@@ -453,7 +453,7 @@ static const uint32_t categoriaCaixa = 0x1 << 1;
     textField.borderStyle = UITextBorderStyleRoundedRect;
     textField.textColor = [UIColor blackColor];
     textField.font = [UIFont systemFontOfSize:25.0];
-    textField.placeholder = @"Insira o valor";
+    textField.placeholder = NSLocalizedString(@"Insira o valor", nil);
     textField.backgroundColor = [UIColor whiteColor];
     textField.autocorrectionType = UITextAutocorrectionTypeNo;
     //textField.keyboardType = UIKeyboardTypeDefault;
@@ -497,11 +497,11 @@ static const uint32_t categoriaCaixa = 0x1 << 1;
         
         switch (i) {
             case 0:
-                textField.placeholder = @"insira o nome";
+                textField.placeholder = NSLocalizedString(@"insira o nome", nil);
                 break;
                 
             case 1:
-                textField.placeholder = @"insira o conteúdo";
+                textField.placeholder = NSLocalizedString(@"insira o conteúdo", nil);
                 textField.keyboardType = UIKeyboardAppearanceDefault;
                 //textField.keyboardType = [self variavelNumerica:variavel];
                 break;
@@ -521,11 +521,11 @@ static const uint32_t categoriaCaixa = 0x1 << 1;
         
         switch (i) {
             case 0:
-                textField.placeholder = @"insira valor1";
+                textField.placeholder = NSLocalizedString(@"Insira valor1", nil);
                 break;
                 
             case 1:
-                textField.placeholder = @"insira valor2";
+                textField.placeholder = NSLocalizedString(@"Insira valor2", nil);
                 break;
         }
     }
@@ -792,7 +792,7 @@ static const uint32_t categoriaCaixa = 0x1 << 1;
         validador.numeroErros += 1;
         
         if (validador.numeroErros > 1) {
-            UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"erro" message:mensagemErro delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+            UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:NSLocalizedString(@"erro", nil) message:mensagemErro delegate:nil cancelButtonTitle:nil otherButtonTitles:NSLocalizedString(@"OK", nil), nil];
             [alertView show];
             validador.numeroErros = 0;
         }
@@ -920,7 +920,7 @@ static const uint32_t categoriaCaixa = 0x1 << 1;
 
 - (void)didBeginContact:(SKPhysicsContact *)contact{
     
-    NSLog(@"entrou contato");
+    //NSLog(@"entrou contato");
     estaEmContato = YES;
     
     [self botaoMenuCresci:YES];
@@ -1020,7 +1020,7 @@ static const uint32_t categoriaCaixa = 0x1 << 1;
         
     }else if (([conteudoAtivo.name isEqualToString:@"operadorNode"] || [conteudoAtivo.name isEqualToString:@"labelOperador"]) && !movendoObjeto){
         SpriteOperadorNode *spriteOperador = [self retornaOperadorNode:conteudoAtivo];
-        NSLog(@"nome objeto: %@",spriteOperador.name);
+        //NSLog(@"nome objeto: %@",spriteOperador.name);
         if ([spriteOperador isKindOfClass:[SpriteOperadorNode class]]) {
             [spriteOperador iniciarAnimacoes];
         };

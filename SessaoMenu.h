@@ -29,7 +29,7 @@
 
 
 @property NSMutableArray *tiposIcones;
-@property id<SessaoMenuDelegate> myDelegate;
+@property (weak) id<SessaoMenuDelegate> myDelegate;
 @property NSString *titulo;
 
 - (id)init;

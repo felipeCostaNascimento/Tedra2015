@@ -40,7 +40,7 @@
  
  @abstract The BEMSimpleLineGraphView delegate object plays a key role in changing the appearance of the graph and receiving graph events. Use the delegate to provide appearance changes, receive touch events, and receive graph events. The delegate can be set from the interface or from code.
  @discussion The delegate must adopt the \p BEMSimpleLineGraphDelegate protocol. The delegate is not retained.*/
-@property (nonatomic, assign) IBOutlet id <BEMSimpleLineGraphDelegate> delegate;
+@property (weak) IBOutlet id <BEMSimpleLineGraphDelegate> delegate;
 
 
 

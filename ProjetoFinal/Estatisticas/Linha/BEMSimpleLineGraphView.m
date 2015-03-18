@@ -249,7 +249,7 @@ typedef NS_ENUM(NSInteger, BEMInternalTags)
             [self.delegate respondsToSelector:@selector(noDataLabelEnableForLineGraph:)] &&
             ![self.delegate noDataLabelEnableForLineGraph:self]) return;
 
-        NSLog(@"[BEMSimpleLineGraph] Data source contains no data. A no data label will be displayed and drawing will stop. Add data to the data source and then reload the graph.");
+        ////NSLog(@"[BEMSimpleLineGraph] Data source contains no data. A no data label will be displayed and drawing will stop. Add data to the data source and then reload the graph.");
         
         self.noDataLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.viewForBaselineLayout.frame.size.width, self.viewForBaselineLayout.frame.size.height)];
         self.noDataLabel.backgroundColor = [UIColor clearColor];
@@ -270,7 +270,7 @@ typedef NS_ENUM(NSInteger, BEMInternalTags)
         return;
         
     } else if (numberOfPoints == 1) {
-        NSLog(@"[BEMSimpleLineGraph] Data source contains only one data point. Add more data to the data source and then reload the graph.");
+        ////NSLog(@"[BEMSimpleLineGraph] Data source contains only one data point. Add more data to the data source and then reload the graph.");
         BEMCircle *circleDot = [[BEMCircle alloc] initWithFrame:CGRectMake(0, 0, self.sizePoint, self.sizePoint)];
         circleDot.center = CGPointMake(self.frame.size.width/2, self.frame.size.height/2);
         circleDot.Pointcolor = self.colorPoint;
@@ -1221,11 +1221,11 @@ typedef NS_ENUM(NSInteger, BEMInternalTags)
 #pragma mark - Other Methods
 
 - (void)printDeprecationAndUnavailableWarningForOldMethod:(NSString *)oldMethod {
-    NSLog(@"[BEMSimpleLineGraph] UNAVAILABLE, DEPRECATION ERROR. The delegate method, %@, is both deprecated and unavailable. It is now a data source method. You must implement this method from BEMSimpleLineGraphDataSource. Update your delegate method as soon as possible. One of two things will now happen: A) an exception will be thrown, or B) the graph will not load.", oldMethod);
+    ////NSLog(@"[BEMSimpleLineGraph] UNAVAILABLE, DEPRECATION ERROR. The delegate method, %@, is both deprecated and unavailable. It is now a data source method. You must implement this method from BEMSimpleLineGraphDataSource. Update your delegate method as soon as possible. One of two things will now happen: A) an exception will be thrown, or B) the graph will not load.", oldMethod);
 }
 
 - (void)printDeprecationWarningForOldMethod:(NSString *)oldMethod andReplacementMethod:(NSString *)replacementMethod {
-    NSLog(@"[BEMSimpleLineGraph] DEPRECATION WARNING. The delegate method, %@, is deprecated and will become unavailable in a future version. Use %@ instead. Update your delegate method as soon as possible. An exception will be thrown in a future version.", oldMethod, replacementMethod);
+    ////NSLog(@"[BEMSimpleLineGraph] DEPRECATION WARNING. The delegate method, %@, is deprecated and will become unavailable in a future version. Use %@ instead. Update your delegate method as soon as possible. An exception will be thrown in a future version.", oldMethod, replacementMethod);
 }
 
 @end

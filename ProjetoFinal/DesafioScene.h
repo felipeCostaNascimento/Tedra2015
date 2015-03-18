@@ -25,7 +25,7 @@
     ProgressoDesafioBar *nodeProgresso;
 }
 
-@property id <DesafioSceneDelegate> myDelegate;
+@property (weak) id <DesafioSceneDelegate> myDelegate;
 
 -(void)reiniciarDesafio;
 -(void)mudarProgresso:(BOOL)resposta;

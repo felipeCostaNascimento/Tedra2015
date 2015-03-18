@@ -21,7 +21,7 @@
         
         nodeFundo = [[SKSpriteNode alloc] initWithTexture:[SKTexture textureWithImageNamed:@"fundo-desafio.png"]];
         //[nodeFundo setSize:CGSizeMake(500, 500)];
-        NSLog(@"%f, %f", nodeFundo.size.width, nodeFundo.size.height);
+        //NSLog(@"%f, %f", nodeFundo.size.width, nodeFundo.size.height);
         [nodeFundo setPosition:CGPointMake(self.size.width / 2, self.size.height / 2)];
         [nodeFundo setAlpha:0];
         [self addChild:nodeFundo];
@@ -135,7 +135,7 @@
     [nodeVisor esconderValorDaTela:YES];
     [nodeCronometro usuarioAcertouResposta];
     
-    NSLog(@"Resposta Correta");
+    //NSLog(@"Resposta Correta");
 }
 
 
@@ -144,7 +144,7 @@
     [nodeVisor esconderValorDaTela:YES];
     [nodeCronometro usuarioErrouResposta];
     
-    NSLog(@"Resposta Errada");
+    //NSLog(@"Resposta Errada");
 }
 
 
@@ -156,8 +156,8 @@
 //QUANDO O DESAFIO TERMINAR, QUEM CRIOU ESTE PROTOCÓLO IRÁ CHAMAR ESTE MÉTODO, QUE POR SUA VEZ MANDA MODIFICAR O TIPO DAS CAIXAS E DEPOIS MANDA POSICIONA-LAS PARA INICIAR O DESAFIO
 -(void)rodadaAtualTerminou{
     if (fimDesafio) {
-        NSLog(@"Acabou o desafio!");
-        NSLog(@"Acertos: %d - Erros: %d", [nodeProgresso getNAcertos], [nodeProgresso getNErros]);
+        //NSLog(@"Acabou o desafio!");
+        //NSLog(@"Acertos: %d - Erros: %d", [nodeProgresso getNAcertos], [nodeProgresso getNErros]);
         
         //[[self myDelegate] exibirDadosEstatisticos:[nodeCronometro getVetorTempos] nAcertos:[nodeProgresso getNAcertos] nErros:[nodeProgresso getNErros]];
         
@@ -182,7 +182,7 @@
 }
 
 -(void)tempoEsgotado{
-    NSLog(@"Tempo Esgotado");
+    //NSLog(@"Tempo Esgotado");
     [nodeEsteira habilitarToqueNasCaixas:NO];
     [nodeVisor esconderValorDaTela:YES];
     [nodeEsteira iniciarAnimacaoMoverEsteira];

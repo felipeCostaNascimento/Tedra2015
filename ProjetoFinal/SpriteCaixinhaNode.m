@@ -142,7 +142,7 @@ static const int YELLOW = 3;
         duracao = 2;
     }
     
-    NSLog(@"%f", duracao);
+    //NSLog(@"%f", duracao);
     
     [acaoMoverX setDuration:duracao];
 }

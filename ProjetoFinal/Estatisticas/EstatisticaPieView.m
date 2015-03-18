@@ -134,7 +134,7 @@
     
     //TEXTO "SEGUNDOS"
     UILabel *labelSegundos = [[UILabel alloc] init];
-    [labelSegundos setText:@"segundos"];
+    [labelSegundos setText:NSLocalizedString(@"segundos", nil)];
     [labelSegundos setFont:[UIFont fontWithName:FONT_LIGHT size:40]];
     [labelSegundos setTextColor:[UIColor whiteColor]];
     requiredSize = [@"segundos" sizeWithAttributes: @{NSFontAttributeName: labelSegundos.font}];

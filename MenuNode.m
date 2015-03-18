@@ -210,7 +210,7 @@
         
         
     }
-    NSLog(@"ERRO nao retornou nenhuma secao");
+    //NSLog(@"ERRO nao retornou nenhuma secao");
     return nil;
     
 }

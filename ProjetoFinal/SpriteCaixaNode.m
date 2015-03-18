@@ -74,7 +74,7 @@
     
     //CRIA A SKLABELNODE QUE MOSTRA O NOME DA VARIÁVEL
     lblNome = [[SKLabelNode alloc] initWithFontNamed:@"Helvetica"];
-    [lblNome setText:@"Insira o nome"];
+    [lblNome setText:NSLocalizedString(@"Insira o nome", nil)];
     [lblNome setFontSize:22];
     [lblNome setFontColor:[SKColor grayColor]];
     [lblNome setPosition:CGPointMake(self.frame.origin.x * 0.75, self.frame.origin.y * 0.2)];
@@ -82,7 +82,7 @@
     
     //CRIA A SKLABELNODE QUE MOSTRA O TIPO DA VARIÁVEL
     lblTipo = [[SKLabelNode alloc] initWithFontNamed:@"Helvetica"];
-    [lblTipo setText:@"Insira o tipo"];
+    [lblTipo setText:NSLocalizedString(@"Insira o tipo", nil)];
     [lblTipo setFontSize:22];
     [lblTipo setFontColor:[SKColor grayColor]];
     [lblTipo setPosition:CGPointMake(self.frame.origin.x * 0.75, self.frame.origin.y * 0.65)];

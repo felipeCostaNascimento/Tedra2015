@@ -23,7 +23,7 @@
     NSString *tipoCondicao;
     SpriteOperadorCondicional *spriteOperador;
 }
-@property id <SpriteCondicaoNodeDelegate> myDelegate;
+@property (weak) id <SpriteCondicaoNodeDelegate> myDelegate;
 
 -(id)initWithType:(NSString*)tipo;
 -(NSString*)getTipo;

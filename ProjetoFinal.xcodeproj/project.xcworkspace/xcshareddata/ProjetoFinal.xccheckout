@@ -12,6 +12,8 @@
 	<dict>
 		<key>87B58E0B2C8BD9C6627630BE87476192F7316536</key>
 		<string>https://github.com/henriqueplima/Tedra2.git</string>
+		<key>C801F0D9BEEF018AB3CC02DBEEB1C44493354E3D</key>
+		<string>https://github.com/felipeCostaNascimento/Tedra2015.git</string>
 		<key>F2E9D857D4768766048D2BE8407553D8F052A425</key>
 		<string>https://github.com/rafaellfreitas/ProjetoFinal.git</string>
 	</dict>
@@ -20,16 +22,18 @@
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>87B58E0B2C8BD9C6627630BE87476192F7316536</key>
+		<string>../../../Tedra2</string>
+		<key>C801F0D9BEEF018AB3CC02DBEEB1C44493354E3D</key>
 		<string>../..</string>
 		<key>F2E9D857D4768766048D2BE8407553D8F052A425</key>
 		<string>../../../ProjetoFinal</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/henriqueplima/Tedra2.git</string>
+	<string>https://github.com/felipeCostaNascimento/Tedra2015.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>87B58E0B2C8BD9C6627630BE87476192F7316536</string>
+	<string>C801F0D9BEEF018AB3CC02DBEEB1C44493354E3D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -47,6 +51,14 @@
 			<string>87B58E0B2C8BD9C6627630BE87476192F7316536</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Tedra2</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C801F0D9BEEF018AB3CC02DBEEB1C44493354E3D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Tedra2015</string>
 		</dict>
 	</array>
 </dict>

@@ -130,7 +130,7 @@ static BOOL animateChanges;
 {
     if(val < 0){
 #ifdef DEBUG
-        NSLog(@"[%@ %@]- Negative values not allowed: val=%f => 0.0", NSStringFromClass(self.class), NSStringFromSelector(_cmd), val);
+        //NSLog(@"[%@ %@]- Negative values not allowed: val=%f => 0.0", NSStringFromClass(self.class), NSStringFromSelector(_cmd), val);
 #endif
         val = 0.0;
     }

@@ -28,7 +28,7 @@
     SKAction *acaoEncherCaixa;
 }
 
-@property id <SpriteCaixinhaDelegate> myDelegate;
+@property (weak) id <SpriteCaixinhaDelegate> myDelegate;
 @property float progressaoDuracao;
 
 -(void)setTipo:(NSString*)tipo;

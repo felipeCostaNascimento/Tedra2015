@@ -30,13 +30,13 @@
     BOOL esteiraLevantada, ultimoResultado;
 }
 
-@property id <SpriteEsteiraDelegate> myDelegate;
+@property (weak) id <SpriteEsteiraDelegate> myDelegate;
 
 -(void)iniciarAnimacaoDesafio;
 -(void)iniciarAnimacaoFimDaRodada;
 -(void)iniciarAnimacaoMoverEsteira;
 -(void)posicionarCaixasParaDesafio;
--(void)habilitarToqueNasCaixas:(NSNumber*)resposta;
+-(void)habilitarToqueNasCaixas:(BOOL)resposta;
 -(void)modificarTipoDasCaixas;
 -(void)iniciarAnimacaoDeEntrada;
 -(void)resetarValores;

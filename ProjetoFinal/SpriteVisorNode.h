@@ -27,7 +27,7 @@
     Gerador *gerador;
 }
 
-@property id <SpriteVisorDelegate> myDelegate;
+@property (weak) id <SpriteVisorDelegate> myDelegate;
 
 -(void)gerarValorAleatorioEntreOsTipos:(NSMutableArray*)tipos;
 -(BOOL)validarResposta:(NSString*)tipo;

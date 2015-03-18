@@ -19,7 +19,7 @@
     SKSpriteNode *simboloAtualizar;
     SKAction *somAtualizar;
 }
-@property id <SpriteAtualizarNodeDelegate> myDelegate;
+@property (weak) id <SpriteAtualizarNodeDelegate> myDelegate;
 
 
 

@@ -27,7 +27,7 @@
 
 @property UIGestureRecognizer *panGesture;
 @property NSMutableArray *imagensIcones;
-@property id <MenuNodeDelegate> myDelegate;
+@property (weak) id <MenuNodeDelegate> myDelegate;
 
 
 - (void)abrirFechar;

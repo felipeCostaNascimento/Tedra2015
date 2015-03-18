@@ -56,7 +56,7 @@
     textField.borderStyle = UITextBorderStyleRoundedRect;
     textField.textColor = [UIColor blackColor];
     textField.font = [UIFont systemFontOfSize:25.0];
-    textField.placeholder = @"Insira o valor";
+    textField.placeholder = NSLocalizedString(@"Insira o valor", nil);
     textField.backgroundColor = [UIColor whiteColor];
     textField.autocorrectionType = UITextAutocorrectionTypeNo;
     textField.keyboardType = UIKeyboardTypeDefault;
@@ -110,7 +110,7 @@
     
     
     controlePasso = [[SKLabelNode alloc]initWithFontNamed:@"Helvetica"];
-    NSLog(@"criando label %d",etapa);
+    ////NSLog(@"criando label %d",etapa);
     controlePasso.text = [NSString stringWithFormat:@"%d/3",etapa];
     
     controlePasso.position = CGPointMake(700, 500);
@@ -140,7 +140,7 @@
     
     
     if (etapa > 3) {
-        NSLog(@"acabou");
+        ////NSLog(@"acabou");
         return;
     }
     
@@ -159,9 +159,9 @@
     trechoEmPortugol.position = CGPointMake(50, 800);
     trechoEmPortugol.fontColor = [SKColor yellowColor];
     [trechoEmPortugol setHorizontalAlignmentMode:SKLabelHorizontalAlignmentModeLeft];
-    NSLog(@"vai incrementar %d" ,etapa);
+    ////NSLog(@"vai incrementar %d" ,etapa);
     
-    NSLog(@"ja incrementou %d",etapa);
+    ////NSLog(@"ja incrementou %d",etapa);
     [self addChild:trechoEmPortugol];
     
     
@@ -336,10 +336,10 @@
     
     if (![texto isEqualToString:@"caractere"] && ![texto isEqualToString:@"inteiro"] && ![texto isEqualToString:@"real"] && ![texto isEqualToString:@"logico"]) {
         
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"ERRO"
-                                                        message:@"TIPO DE VARIAVEL INEXISTENTE"
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"ERRO", nil)
+                                                        message:NSLocalizedString(@"TIPO DE VARIAVEL INEXISTENTE", nil)
                                                        delegate:self
-                                              cancelButtonTitle:@"OK"
+                                              cancelButtonTitle:NSLocalizedString(@"OK", nil)
                                               otherButtonTitles:nil];
         [self runAction:[SKAction playSoundFileNamed:@"errado.wav" waitForCompletion:NO]];
         [alert show];
@@ -463,11 +463,11 @@
         [self reinicializaExercicio];
         
         
-        //NSLog(@"inicia novamente");
+        //////NSLog(@"inicia novamente");
         
     }else{
         [self criaMensagemErro];
-        //NSLog(@"errada");
+        //////NSLog(@"errada");
     }
     
     
@@ -533,14 +533,14 @@
         //float yMeio = (yInicio + yFim)/2; PARA O FUTURO
         
         if ((conteudoAtivo.position.x > xInicio && conteudoAtivo.position.x < xFim)&&(conteudoAtivo.position.y >yInicio && conteudoAtivo.position.y < yFim)) { // Verifica se o nó "resposta" está sobre alguma caixa
-            //NSLog(@"deu certo");
+            //////NSLog(@"deu certo");
             [self atualizaCaixa:variavel Label:(SpriteLabelNode *) conteudoAtivo];
             
             
             //VERIFICA SE TODOS OS TEXTOS DAS LABELS DA CAIXA FORAM ALTERADAS
             
             if (![[variavel retornaTipo] isEqualToString:@"Insira o tipo"] && ![[variavel retornaNome] isEqualToString:@"Insira o nome"] && ![[variavel retornaConteudo] isEqualToString:@"Insira o conteúdo"]) {
-                NSLog(@"todas respondidas");
+                ////NSLog(@"todas respondidas");
                 [self corrigirExercicio];
             }
             
@@ -549,6 +549,7 @@
         
         //[conteudoAtivo setPosition:CGPointMake(xMeio, yMeio)]; //Coloca o node no centro da caixa
     }
+    [NSObject dealloc];
     
 }
 

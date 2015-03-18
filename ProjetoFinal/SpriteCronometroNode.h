@@ -23,7 +23,7 @@
     float tempoAtual;
 }
 
-@property id<SpriteCronometroDelegate> myDelegate;
+@property (weak) id<SpriteCronometroDelegate> myDelegate;
 @property float progressaoTempo;
 
 -(id)initWithTempoTotalEmSegundos:(float)tempo progressaoDeTempo:(float)progressao;

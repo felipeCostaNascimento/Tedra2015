@@ -183,7 +183,7 @@
     
     lblCodigo1.position = CGPointMake(self.frame.size.width * 50, altura);;
     lblCodigo1.fontSize = font;
-    NSLog(@"tamanho tela %f",self.frame.size.width * 50);
+    ////NSLog(@"tamanho tela %f",self.frame.size.width * 50);
     
     condicao.position = CGPointMake(self.frame.size.width * 90, altura);
     condicao.posicaoInicial = condicao.position;
@@ -518,7 +518,7 @@
             //pega condicao do vetor de expressoes
             
             SpriteLabelNode *condicao = [[expressoes objectAtIndex:indice] objectForKey:@"condicao"];
-            NSLog(@"name %@  tipo %@",condicao.name,condicao.tipo);
+            ////NSLog(@"name %@  tipo %@",condicao.name,condicao.tipo);
         
         
             // verifica se ja apareceu a condicao verdadeira
@@ -533,7 +533,7 @@
                     
                     while (![condicao.name isEqualToString:@"nula"] && indice < expressoes.count) {
                         condicao = [[expressoes objectAtIndex:indice] objectForKey:@"condicao"];
-                        NSLog(@"name %@  tipo %@",condicao.name,condicao.tipo);
+                        ////NSLog(@"name %@  tipo %@",condicao.name,condicao.tipo);
                         indice++;
                     }
                     
@@ -549,7 +549,7 @@
                 while (![condicao.name isEqualToString:@"nula"] && ![condicao.name isEqualToString:@"condicao"] && ![condicao.name isEqualToString:@"senao"] && indice < expressoes.count) {
                     indice++;
                     condicao = [[expressoes objectAtIndex:indice] objectForKey:@"condicao"];
-                    NSLog(@"name %@  tipo %@",condicao.name,condicao.tipo);
+                    ////NSLog(@"name %@  tipo %@",condicao.name,condicao.tipo);
                 }
                 
                 
@@ -668,7 +668,7 @@
         
         
         //verifica se a condicao existe
-        NSLog(@"condicao == %@",condicao.name);
+        ////NSLog(@"condicao == %@",condicao.name);
         if (![condicao.name isEqualToString:@"nula"] && ![condicao.name isEqualToString:@"senao"] && ![condicao.name isEqualToString:@"linha"]) {
             caracteres = [self converteCondicaoTexto:condicao.text];
             
@@ -773,7 +773,7 @@
         [self corrigeExercicio];
     }else if ([nodeClicado.name isEqualToString:@"debugar"] && habilitarDebugar){
         habilitarDebugar = NO;
-        //NSLog(@"DEBUGOU");
+        ////NSLog(@"DEBUGOU");
         [self debugar];
     }else if ([nodeClicado.name isEqualToString:@"botaoFinalizar"]){
         [self.myDelegate exercicioFinalizado];

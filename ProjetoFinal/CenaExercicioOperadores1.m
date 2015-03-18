@@ -301,7 +301,7 @@
                 [spriteOperador setLabelOperador:@""];
                 [self addChild:operador];
                 quantidadeOperadores++;
-                NSLog(@"quantidade %d",quantidadeOperadores);
+                //////NSLog(@"quantidade %d",quantidadeOperadores);
                 
 
                 
@@ -361,7 +361,7 @@
         [conteudoAtivo removeFromParent];
         conteudoAtivo.dentro = YES;
         quantidadeOperadores--;
-        NSLog(@"quantidade %d",quantidadeOperadores);
+        //////NSLog(@"quantidade %d",quantidadeOperadores);
         
     }else{
         //OPERADOR NO LUGAR ERRADO
@@ -372,7 +372,7 @@
     //VERIFICA SE O EXERCICIO JA ACABOU
     
     if (quantidadeOperadores <= 0) {
-        NSLog(@"exercicio concluido");
+        ////////NSLog(@"exercicio concluido");
         [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"ExeOperadores1"];
         [self criarBotaoFinalizar];
     }

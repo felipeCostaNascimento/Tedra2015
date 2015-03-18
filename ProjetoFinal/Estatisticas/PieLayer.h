@@ -41,7 +41,7 @@ typedef enum ShowTitles
 @class PieElement;
 @interface PieLayer : CALayer
 
-@property id <PieLayerDelegate> myDelegate;
+@property (weak) id <PieLayerDelegate> myDelegate;
 
 
 @property (nonatomic, strong, readonly) NSArray* values;

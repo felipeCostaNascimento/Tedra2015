@@ -74,7 +74,7 @@
 }
 
 - (void)tempoEsgotado{
-    NSLog(@"tempo esgotado");
+    //NSLog(@"tempo esgotado");
     
     
     [self insereResposta:NO];

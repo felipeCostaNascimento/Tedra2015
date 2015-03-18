@@ -64,7 +64,7 @@
 -(void)gerarValorAleatorioEntreOsTipos:(NSMutableArray*)tipos{
     //EM ALGUNS CASOS O VETOR PODE VIM NULL, NESSES CASOS O MÉTODO APENAS RETORNA
     if (!tipos) {
-        NSLog(@"tipos == null");
+        //NSLog(@"tipos == null");
         return;
     }
     

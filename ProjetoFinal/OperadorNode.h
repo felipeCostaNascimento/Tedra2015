@@ -24,7 +24,7 @@
     BOOL controladoPelaCena;
 }
 
-@property id <OperadorNodeDelegate> myDelegate;
+@property (weak) id <OperadorNodeDelegate> myDelegate;
 
 -(id)initWithOperador:(NSString*)operador;
 -(void)setLabelOperador:(NSString*)operador;

@@ -133,7 +133,7 @@
     
     //LABEL DESEMPENHO
     UILabel *txtDesempenho = [[UILabel alloc] init];
-    [txtDesempenho setText:@"Desempenho"];
+    [txtDesempenho setText:NSLocalizedString(@"Desempenho", nil)];
     [txtDesempenho setFont:[UIFont fontWithName:FONT_LIGHT size:80]];
     [txtDesempenho setTextColor:[UIColor whiteColor]];
     int width = 455;
@@ -202,14 +202,14 @@
 
 
 -(IBAction)botaoMenuPrincipalClicado:(id)sender{
-    NSLog(@"menu principal");
+    //NSLog(@"menu principal");
     
     [self limparView];
     [self voltar:nil];
 }
 
 -(IBAction)botaoReiniciarClicado:(id)sender{
-    NSLog(@"reiniciar");
+    //NSLog(@"reiniciar");
     [self limparView];
     
     [cenaAtual reiniciarDesafio];

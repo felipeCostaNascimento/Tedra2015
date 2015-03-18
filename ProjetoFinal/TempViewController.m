@@ -78,7 +78,7 @@
 -(void)corrige:(NSString*)opcao{
     
     
-    NSLog(@"%d",[gerenciadorDesafios corrige:opcao]);
+    //NSLog(@"%d",[gerenciadorDesafios corrige:opcao]);
     [self alteraValores];
     
 }
@@ -98,10 +98,10 @@
         self.lblResultado.text = [self.desafioAtual resultado];
         [self ajustaBotoes];
         //        if ([self.desafioAtual respostaDupla]) {
-        //            NSLog(@"Dupla");
+        //            //NSLog(@"Dupla");
         //        }
     }else{
-        NSLog(@"Fim");
+        //NSLog(@"Fim");
     }
     
     

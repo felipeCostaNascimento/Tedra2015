@@ -16,7 +16,7 @@
 @end
 @interface CenaExercicio : SKScene
 
-@property id <CenaExercicioDelegate> myDelegate;
+@property (weak) id <CenaExercicioDelegate> myDelegate;
 
 
 @end

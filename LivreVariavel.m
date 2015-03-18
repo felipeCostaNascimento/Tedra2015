@@ -103,7 +103,7 @@
     textField.borderStyle = UITextBorderStyleRoundedRect;
     textField.textColor = [UIColor blackColor];
     textField.font = [UIFont systemFontOfSize:25.0];
-    textField.placeholder = @"Enter your name here";
+    textField.placeholder = NSLocalizedString(@"Enter your name here", nil);
     textField.backgroundColor = [UIColor whiteColor];
     textField.autocorrectionType = UITextAutocorrectionTypeNo;
     textField.keyboardType = UIKeyboardTypeDefault;
@@ -121,17 +121,17 @@
 - (void)longPressGestureRecognizer:(UILongPressGestureRecognizer *)recognizer{
     
 //    if (recognizer.state == UIGestureRecognizerStateBegan) {
-//        NSLog(@"gesture comecou");
+//        //NSLog(@"gesture comecou");
 //    }else if (recognizer.state == UIGestureRecognizerStateChanged){
-//        NSLog(@"gesture meio");
+//        //NSLog(@"gesture meio");
 //    }else if (recognizer.state == UIGestureRecognizerStateEnded){
-//        NSLog(@"gesture fim");
+//        //NSLog(@"gesture fim");
 //    }
     
     
     
     if (recognizer.state == UIGestureRecognizerStateBegan && [conteudoAtivo.name isEqualToString:@"caixa"]) {
-        NSLog(@"funcionou");
+        //NSLog(@"funcionou");
     }else if (recognizer.state == UIGestureRecognizerStateBegan && [conteudoAtivo.name isEqualToString:@"label"]){
         [textField setHidden:NO];
     }
@@ -240,7 +240,7 @@
     
     UITouch *touch = [touches anyObject];
     apertei =[touch timestamp];
-//    NSLog(@"segurei %d segundos",apertei);
+//    //NSLog(@"segurei %d segundos",apertei);
     CGPoint location =  [touch locationInNode:self];
     conteudoAtivo = [self nodeAtPoint:location];
     
@@ -300,7 +300,7 @@
             //float yMeio = (yInicio + yFim)/2; PARA O FUTURO
             
             if ((conteudoAtivo.position.x > xInicio && conteudoAtivo.position.x < xFim)&&(conteudoAtivo.position.y >yInicio && conteudoAtivo.position.y < yFim)) { // Verifica se o nó "resposta" está sobre alguma caixa
-                NSLog(@"deu certo");
+                //NSLog(@"deu certo");
                 [self atualizaCaixa:c Label:(SpriteLabelNode *) conteudoAtivo];
             }
                 

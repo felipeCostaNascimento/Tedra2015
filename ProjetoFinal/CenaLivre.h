@@ -21,7 +21,7 @@
 
 
 @interface CenaLivre : SKScene <UITextFieldDelegate,SKPhysicsContactDelegate,OperadorNodeGesture,MenuNodeDelegate>
-@property id<CenaLivreDelegate> myDelegate;
+@property (weak) id<CenaLivreDelegate> myDelegate;
 
 - (void)removeDelegates;
 

@@ -594,7 +594,7 @@ static NSString * const _animationValuesKey = @"animationValues";
         anchorPoint = CGPointMake(1, easeInOut((angle - (M_PI_2+M_PI_4)) / M_PI_2));
         partSuperior = YES;
     } else {
-        //NSLog(@"%f", angle);
+        ////NSLog(@"%f", angle);
         parteInferior = YES;
         anchorPoint = CGPointMake(easeInOut(((2*M_PI - M_PI_4) - angle) / M_PI_2), 1);
     }
@@ -621,7 +621,7 @@ static NSString * const _animationValuesKey = @"animationValues";
     
     
     
-    //NSLog(@"%f", pos.x - anchorPoint.x *textSize.width);
+    ////NSLog(@"%f", pos.x - anchorPoint.x *textSize.width);
     
     CGRect frame2 = frame;
     frame2.origin.y += frame.size.height;

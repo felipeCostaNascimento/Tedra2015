@@ -28,7 +28,7 @@
 
 -(void)prepararAssunto{
     
-    NSLog(@"chamou");
+    ////NSLog(@"chamou");
     
 }
 
