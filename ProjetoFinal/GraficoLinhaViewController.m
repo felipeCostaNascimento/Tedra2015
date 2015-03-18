@@ -98,7 +98,8 @@
 }
 
 - (CGFloat)lineGraph:(BEMSimpleLineGraphView *)graph valueForPointAtIndex:(NSInteger)index {
-    return [[self.vetorValores objectAtIndex:index] floatValue];
+    CGFloat teste = [[self.vetorValores objectAtIndex:index] floatValue];
+    return teste;
 }
 
 

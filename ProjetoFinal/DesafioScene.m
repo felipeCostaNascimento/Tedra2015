@@ -37,4 +37,12 @@
     
     
 }
+
+-(void)animacaoDeEntradaCronometroFinalizada{
+    
+}
+
+-(void)tempoEsgotado{
+    
+}
 @end

@@ -107,7 +107,7 @@
 
 -(void)caixaFoiClicada{
     [nodeCronometro pararContagem];
-    [nodeEsteira habilitarToqueNasCaixas:[NSNumber numberWithBool:NO]];
+    [nodeEsteira habilitarToqueNasCaixas:NO];
 }
 
 //QUANDO O USUÁRIO RESPONDE O DESAFIO, QUEM CRIOU ESTE PROTOCÓLO IRÁ CHAMAR ESTE MÉTODO, QUE POR SUA VEZ MANDA PARAR O CRONÔMETRO E VERIFICA A RESPOSTA

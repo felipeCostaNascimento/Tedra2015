@@ -36,7 +36,7 @@
 
 
 - (void)preparaGraficoLinha{
-    
+    //ERRO ESTÁ AQUI!!!!!!!!!!!!!!!!
     self.vetorDesafios = [NSMutableArray array];
     self.vetorValores = [NSMutableArray array];
     
@@ -63,6 +63,7 @@
     [self.view bringSubviewToFront:self.myGraph];
     [self.view setUserInteractionEnabled:YES];
     [self.view addSubview:self.myGraph];
+    
 }
 
 #pragma mark - SimpleLineGraph Data Source
