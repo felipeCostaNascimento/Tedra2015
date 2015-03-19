@@ -59,6 +59,7 @@
     self.myGraph.gradientBottom = CGGradientCreateWithColorComponents(colorspace, components, locations, num_locations);
     
     self.myGraph.delegate = self;
+    self.myGraph.dataSource = self;
     self.myGraph.backgroundColor = [UIColor clearColor];
     [self.view bringSubviewToFront:self.myGraph];
     [self.view setUserInteractionEnabled:YES];
