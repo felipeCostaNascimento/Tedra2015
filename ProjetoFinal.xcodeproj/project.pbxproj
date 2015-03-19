@@ -14,7 +14,6 @@
 		120E8F83192FC0A200CDEF95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 120E8F82192FC0A200CDEF95 /* main.m */; };
 		120E8F87192FC0A200CDEF95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 120E8F86192FC0A200CDEF95 /* AppDelegate.m */; };
 		120E8F8A192FC0A200CDEF95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120E8F88192FC0A200CDEF95 /* Main.storyboard */; };
-		120E8F8D192FC0A200CDEF95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120E8F8C192FC0A200CDEF95 /* ViewController.m */; };
 		120E8F8F192FC0A200CDEF95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 120E8F8E192FC0A200CDEF95 /* Images.xcassets */; };
 		120E8F96192FC0A200CDEF95 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 120E8F95192FC0A200CDEF95 /* XCTest.framework */; };
 		120E8F97192FC0A200CDEF95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 120E8F76192FC0A200CDEF95 /* Foundation.framework */; };
@@ -27,7 +26,6 @@
 		12719D4819CB5DB9006B1374 /* ColabReg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 12719D4619CB5B16006B1374 /* ColabReg.otf */; };
 		12719D4919CB5DBF006B1374 /* ColabThi.otf in Resources */ = {isa = PBXBuildFile; fileRef = 12719D4719CB5B16006B1374 /* ColabThi.otf */; };
 		12719D4C19CB5FB5006B1374 /* BotaoDesafiosNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 12719D4B19CB5FB5006B1374 /* BotaoDesafiosNode.m */; };
-		12719D4F19CB6CCD006B1374 /* TempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12719D4E19CB6CCD006B1374 /* TempViewController.m */; };
 		12C02BC419D60B9B0015AF10 /* botao-livre-imagem.png in Resources */ = {isa = PBXBuildFile; fileRef = 12C02BC119D60B9B0015AF10 /* botao-livre-imagem.png */; };
 		12C02BC519D60B9B0015AF10 /* botao-treinamento-imagem.png in Resources */ = {isa = PBXBuildFile; fileRef = 12C02BC219D60B9B0015AF10 /* botao-treinamento-imagem.png */; };
 		12C02BC619D60B9B0015AF10 /* botao-enciclopedia-imagem.png in Resources */ = {isa = PBXBuildFile; fileRef = 12C02BC319D60B9B0015AF10 /* botao-enciclopedia-imagem.png */; };
@@ -89,7 +87,6 @@
 		84BCB1B01A236ED90011B2D8 /* BEMCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BCB1AB1A236ED90011B2D8 /* BEMCircle.m */; };
 		84BCB1B11A236ED90011B2D8 /* BEMLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BCB1AD1A236ED90011B2D8 /* BEMLine.m */; };
 		84BCB1B21A236ED90011B2D8 /* BEMSimpleLineGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BCB1AF1A236ED90011B2D8 /* BEMSimpleLineGraphView.m */; };
-		84BCB1B51A236FA60011B2D8 /* GraficoLinhaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BCB1B41A236FA60011B2D8 /* GraficoLinhaViewController.m */; };
 		84BCF53419CB703B003D9F71 /* SecaoMenuOperador.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BCF53319CB703B003D9F71 /* SecaoMenuOperador.m */; };
 		91A7A956198F56DC009A5EB1 /* ConceitosCondicionais.txt in Resources */ = {isa = PBXBuildFile; fileRef = 91A7A955198F56DC009A5EB1 /* ConceitosCondicionais.txt */; };
 		91A986111962324500EA1074 /* Assunto.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A986101962324500EA1074 /* Assunto.m */; };
@@ -261,8 +258,6 @@
 		BDC757A9196787E700DB8380 /* abrir-caixa12.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC7579C196787E700DB8380 /* abrir-caixa12.png */; };
 		BDC757AA196787E700DB8380 /* abrir-caixa13.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC7579D196787E700DB8380 /* abrir-caixa13.png */; };
 		BDCCE535199D322C0063DF2B /* item-em breve.png in Resources */ = {isa = PBXBuildFile; fileRef = BDCCE534199D322C0063DF2B /* item-em breve.png */; };
-		BDD22EF619A6F29C0043AA02 /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD22EF519A6F29C0043AA02 /* TutorialViewController.m */; };
-		BDD22EF919A6F31C0043AA02 /* FilhoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD22EF819A6F31C0043AA02 /* FilhoViewController.m */; };
 		BDD22F0C19A6F4A70043AA02 /* img-tutorial2.png in Resources */ = {isa = PBXBuildFile; fileRef = BDD22F0719A6F4A70043AA02 /* img-tutorial2.png */; };
 		BDD22F0D19A6F4A70043AA02 /* img-tutorial3.png in Resources */ = {isa = PBXBuildFile; fileRef = BDD22F0819A6F4A70043AA02 /* img-tutorial3.png */; };
 		BDD22F0E19A6F4A70043AA02 /* img-tutorial4.png in Resources */ = {isa = PBXBuildFile; fileRef = BDD22F0919A6F4A70043AA02 /* img-tutorial4.png */; };
@@ -340,8 +335,6 @@
 		120E8F85192FC0A200CDEF95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		120E8F86192FC0A200CDEF95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		120E8F89192FC0A200CDEF95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		120E8F8B192FC0A200CDEF95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		120E8F8C192FC0A200CDEF95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		120E8F8E192FC0A200CDEF95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		120E8F94192FC0A200CDEF95 /* ProjetoFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjetoFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		120E8F95192FC0A200CDEF95 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -358,8 +351,6 @@
 		12719D4719CB5B16006B1374 /* ColabThi.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ColabThi.otf; sourceTree = "<group>"; };
 		12719D4A19CB5FB5006B1374 /* BotaoDesafiosNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BotaoDesafiosNode.h; sourceTree = "<group>"; };
 		12719D4B19CB5FB5006B1374 /* BotaoDesafiosNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BotaoDesafiosNode.m; sourceTree = "<group>"; };
-		12719D4D19CB6CCD006B1374 /* TempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempViewController.h; sourceTree = "<group>"; };
-		12719D4E19CB6CCD006B1374 /* TempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempViewController.m; sourceTree = "<group>"; };
 		12C02BC119D60B9B0015AF10 /* botao-livre-imagem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botao-livre-imagem.png"; sourceTree = "<group>"; };
 		12C02BC219D60B9B0015AF10 /* botao-treinamento-imagem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botao-treinamento-imagem.png"; sourceTree = "<group>"; };
 		12C02BC319D60B9B0015AF10 /* botao-enciclopedia-imagem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botao-enciclopedia-imagem.png"; sourceTree = "<group>"; };
@@ -446,8 +437,6 @@
 		84BCB1AD1A236ED90011B2D8 /* BEMLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BEMLine.m; path = Estatisticas/Linha/BEMLine.m; sourceTree = "<group>"; };
 		84BCB1AE1A236ED90011B2D8 /* BEMSimpleLineGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BEMSimpleLineGraphView.h; path = Estatisticas/Linha/BEMSimpleLineGraphView.h; sourceTree = "<group>"; };
 		84BCB1AF1A236ED90011B2D8 /* BEMSimpleLineGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BEMSimpleLineGraphView.m; path = Estatisticas/Linha/BEMSimpleLineGraphView.m; sourceTree = "<group>"; };
-		84BCB1B31A236FA60011B2D8 /* GraficoLinhaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraficoLinhaViewController.h; sourceTree = "<group>"; };
-		84BCB1B41A236FA60011B2D8 /* GraficoLinhaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraficoLinhaViewController.m; sourceTree = "<group>"; };
 		84BCF53219CB703B003D9F71 /* SecaoMenuOperador.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecaoMenuOperador.h; path = ../SecaoMenuOperador.h; sourceTree = "<group>"; };
 		84BCF53319CB703B003D9F71 /* SecaoMenuOperador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecaoMenuOperador.m; path = ../SecaoMenuOperador.m; sourceTree = "<group>"; };
 		91A7A955198F56DC009A5EB1 /* ConceitosCondicionais.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ConceitosCondicionais.txt; sourceTree = "<group>"; };
@@ -666,10 +655,6 @@
 		BDC7579C196787E700DB8380 /* abrir-caixa12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "abrir-caixa12.png"; path = "Imagens/Sprites/variavel/abrir-caixa12.png"; sourceTree = "<group>"; };
 		BDC7579D196787E700DB8380 /* abrir-caixa13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "abrir-caixa13.png"; path = "Imagens/Sprites/variavel/abrir-caixa13.png"; sourceTree = "<group>"; };
 		BDCCE534199D322C0063DF2B /* item-em breve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "item-em breve.png"; path = "Imagens/item-em breve.png"; sourceTree = "<group>"; };
-		BDD22EF419A6F29C0043AA02 /* TutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
-		BDD22EF519A6F29C0043AA02 /* TutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialViewController.m; sourceTree = "<group>"; };
-		BDD22EF719A6F31C0043AA02 /* FilhoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilhoViewController.h; sourceTree = "<group>"; };
-		BDD22EF819A6F31C0043AA02 /* FilhoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilhoViewController.m; sourceTree = "<group>"; };
 		BDD22F0719A6F4A70043AA02 /* img-tutorial2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img-tutorial2.png"; sourceTree = "<group>"; };
 		BDD22F0819A6F4A70043AA02 /* img-tutorial3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img-tutorial3.png"; sourceTree = "<group>"; };
 		BDD22F0919A6F4A70043AA02 /* img-tutorial4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img-tutorial4.png"; sourceTree = "<group>"; };
@@ -795,10 +780,6 @@
 				120E8F85192FC0A200CDEF95 /* AppDelegate.h */,
 				120E8F86192FC0A200CDEF95 /* AppDelegate.m */,
 				120E8F88192FC0A200CDEF95 /* Main.storyboard */,
-				84BCB1B31A236FA60011B2D8 /* GraficoLinhaViewController.h */,
-				84BCB1B41A236FA60011B2D8 /* GraficoLinhaViewController.m */,
-				120E8F8B192FC0A200CDEF95 /* ViewController.h */,
-				120E8F8C192FC0A200CDEF95 /* ViewController.m */,
 				120E8F8E192FC0A200CDEF95 /* Images.xcassets */,
 				120E8F7D192FC0A200CDEF95 /* Supporting Files */,
 			);
@@ -1298,12 +1279,9 @@
 				BD98DE901A1BD4D500845D6B /* Estatistica */,
 				A5BE095D19C223AF00F7110E /* MenuPrincipalViewController.h */,
 				A5BE095E19C223AF00F7110E /* MenuPrincipalViewController.m */,
-				BDD22EF319A6F2390043AA02 /* Introducao */,
 				8487523219C3747500A93120 /* Desafio */,
 				8487523419C374DE00A93120 /* Enciclopedia */,
 				8487523619C3751F00A93120 /* Livre */,
-				12719D4D19CB6CCD006B1374 /* TempViewController.h */,
-				12719D4E19CB6CCD006B1374 /* TempViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -1611,17 +1589,6 @@
 				BDC7579D196787E700DB8380 /* abrir-caixa13.png */,
 			);
 			name = Variavel;
-			sourceTree = "<group>";
-		};
-		BDD22EF319A6F2390043AA02 /* Introducao */ = {
-			isa = PBXGroup;
-			children = (
-				BDD22EF419A6F29C0043AA02 /* TutorialViewController.h */,
-				BDD22EF519A6F29C0043AA02 /* TutorialViewController.m */,
-				BDD22EF719A6F31C0043AA02 /* FilhoViewController.h */,
-				BDD22EF819A6F31C0043AA02 /* FilhoViewController.m */,
-			);
-			name = Introducao;
 			sourceTree = "<group>";
 		};
 		BDD22F0619A6F4A70043AA02 /* Tutorial */ = {
@@ -2058,13 +2025,11 @@
 				A5F38EFA19C5F6B700D337A4 /* Expressao.m in Sources */,
 				849970E6199EA38700996580 /* CenaExercicio.m in Sources */,
 				A505740F1978243A00F68932 /* Geral.m in Sources */,
-				120E8F8D192FC0A200CDEF95 /* ViewController.m in Sources */,
 				84B1B3E9197D8BEF00089FCB /* CenaExercicioCondSimples1.m in Sources */,
 				A5CBEB9519D3595900AC879D /* OperadorDesafiosNode.m in Sources */,
 				BD98DE891A1BD4AF00845D6B /* EstatisticaPieView.m in Sources */,
 				84BCB1B11A236ED90011B2D8 /* BEMLine.m in Sources */,
 				8487523E19C379E100A93120 /* CenaLivre.m in Sources */,
-				84BCB1B51A236FA60011B2D8 /* GraficoLinhaViewController.m in Sources */,
 				84BCB1B21A236ED90011B2D8 /* BEMSimpleLineGraphView.m in Sources */,
 				A521FEF01993FE9900D28627 /* SaidaDeDados.m in Sources */,
 				BDBE7696197A39E0004EA926 /* SpriteOperadorNode.m in Sources */,
@@ -2093,7 +2058,6 @@
 				1551BFE719C36C3C00CBDB86 /* DesafioViewController.m in Sources */,
 				12719D4319CB5683006B1374 /* DesafiosOperadoresScene.m in Sources */,
 				A513B45319D758C800303E19 /* CustomizadaTableViewCell.m in Sources */,
-				12719D4F19CB6CCD006B1374 /* TempViewController.m in Sources */,
 				84960B8019C8D9B900BC7808 /* SecaoMenuVariavel.m in Sources */,
 				91A9861E1962392400EA1074 /* GerenciadorDeAssunto.m in Sources */,
 				BDE82C291991778700610D96 /* SpriteCondicaoNode.m in Sources */,
@@ -2103,7 +2067,6 @@
 				BD01DE051983566100AEAAA8 /* AnimaCondSimples.m in Sources */,
 				BD6B54D419D7987300BC0E5F /* SpriteCaixinhaNode.m in Sources */,
 				846B73921978255B009C2EB7 /* CenaExercicioOperadores1.m in Sources */,
-				BDD22EF919A6F31C0043AA02 /* FilhoViewController.m in Sources */,
 				BDB893D719677B3A009C105C /* AnimaVariavel.m in Sources */,
 				A505740C197811E700F68932 /* ExeOperadores1.m in Sources */,
 				84A72AAD19FEDE7B0009B58A /* IconeView.m in Sources */,
@@ -2117,7 +2080,6 @@
 				BD6B54D519D7987300BC0E5F /* SpriteCronometroNode.m in Sources */,
 				BD9CD6B91A2014A50013B7B8 /* JCRBlurView.m in Sources */,
 				A500C2B519743C1D00D6BE83 /* ExeVariavel1.m in Sources */,
-				BDD22EF619A6F29C0043AA02 /* TutorialViewController.m in Sources */,
 				BDBE7695197A39E0004EA926 /* OperadorValoresNode.m in Sources */,
 				8492087D19C765C200D64AE8 /* MenuNode.m in Sources */,
 				A55F2B411964879A00111BEB /* Variavel.m in Sources */,
