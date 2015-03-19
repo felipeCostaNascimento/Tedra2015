@@ -41,14 +41,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ProjetoFinal/Estatisticas/Linha/BEMSimpleLineGraphView.h"
-            timestampString = "439138002.600636"
+            filePath = "ProjetoFinal/Estatisticas/Linha/BEMSimpleLineGraphView.m"
+            timestampString = "439172614.345227"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "308"
-            endingLineNumber = "308"
-            landmarkName = "-lineGraph:valueForPointAtIndex:"
-            landmarkType = "4">
+            startingLineNumber = "534"
+            endingLineNumber = "534"
+            landmarkName = "-drawXAxis"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -57,13 +57,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ProjetoFinal/Estatisticas/Linha/BEMSimpleLineGraphView.m"
-            timestampString = "439172614.345227"
+            filePath = "ProjetoFinal/GraficoLinhaViewController.m"
+            timestampString = "448480405.678546"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "534"
-            endingLineNumber = "534"
-            landmarkName = "-drawXAxis"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

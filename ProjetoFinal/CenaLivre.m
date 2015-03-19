@@ -236,7 +236,7 @@ static const uint32_t categoriaCaixa = 0x1 << 1;
 - (void)criaMenuEdicao{
     
     menuEdicao = [[SKSpriteNode alloc] initWithImageNamed:@"MenuEditarFundo.png"];
-    [menuEdicao setSize:CGSizeMake(770, 70)];
+    [menuEdicao setSize:CGSizeMake(770, 90)];
     [menuEdicao setPosition:CGPointMake(385, 925)];
     
     
@@ -244,7 +244,7 @@ static const uint32_t categoriaCaixa = 0x1 << 1;
     SKSpriteNode *botaoOK = [[SKSpriteNode alloc]initWithImageNamed:@"MenuEditarBotao.png"];
     botaoOK.name = @"botaoOK";
     [botaoOK setPosition:CGPointMake(300, -3)];
-    [botaoOK setSize:CGSizeMake(110, 50)];
+    [botaoOK setSize:CGSizeMake(110, 55)];
     [menuEdicao addChild:botaoOK];
     
     
@@ -432,7 +432,7 @@ static const uint32_t categoriaCaixa = 0x1 << 1;
     //ALLOCANDO VETOR TEXTFILED
     vetorTextField = [NSMutableArray array];
     
-    CGRect bounds = CGRectMake(self.size.width * 0.05, self.size.height * 0.08, 250, 40);
+    CGRect bounds = CGRectMake(self.size.width * 0.05, self.size.height * 0.075, 250, 55);
 
     for (int i = 0; i < 2; i++) {
         UITextField *textField = [self criaTextFieldBounds:bounds];
