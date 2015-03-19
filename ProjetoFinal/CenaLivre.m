@@ -268,6 +268,7 @@ static const uint32_t categoriaCaixa = 0x1 << 1;
         menuEditarAberto = YES;
         [self addChild:menuEdicao];
         
+        
     }
     
     [self mostraEscondeTextField:!menuEditarAberto];
@@ -470,18 +471,20 @@ static const uint32_t categoriaCaixa = 0x1 << 1;
     
 }
 
--(void)mostraEscondeTextField:(BOOL)mostra{
+-(void)mostraEscondeTextField:(BOOL)esconde{
     
     for (UITextField *textField in vetorTextField) {
-        if (!mostra) {
+        if (!esconde) {
             
             [self limpaTextField:textField];
+            [[vetorTextField objectAtIndex:0] becomeFirstResponder];
             
         }else{
             [textField resignFirstResponder];
         }
         
-        textField.hidden = mostra;
+        textField.hidden = esconde;
+        
     }
 }
 
@@ -539,6 +542,8 @@ static const uint32_t categoriaCaixa = 0x1 << 1;
         if ([self validarDados]) {
             [self escondeMenuEdicao];
         }
+    }else if ([textField isEqual:[vetorTextField objectAtIndex:0] ]){
+        [[vetorTextField objectAtIndex:1] becomeFirstResponder];
     }
     
     
@@ -740,6 +745,7 @@ static const uint32_t categoriaCaixa = 0x1 << 1;
         textField.layer.masksToBounds = NO;
         textField.layer.borderWidth = 0.0f;
         //textField.layer.borderColor = [[UIColor blackColor] CGColor];
+        
     }
     
 }
@@ -867,6 +873,8 @@ static const uint32_t categoriaCaixa = 0x1 << 1;
     
 }
 
+
+
 - (void)identificaNode{
     
     if ([conteudoAtivo isEqual:objetoEditando]) {
@@ -884,6 +892,7 @@ static const uint32_t categoriaCaixa = 0x1 << 1;
     }else if ([conteudoAtivo.name isEqualToString:@"iconeMenu"]){
         [conteudoAtivo runAction:[self retornaCrescerDiminuir:YES]];
     }else if ([conteudoAtivo.name isEqualToString:@"botaoOK"]){
+        
         if (![self validarDados]) {
             return;
         }
