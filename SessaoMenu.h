@@ -33,7 +33,7 @@
 @property NSString *titulo;
 
 - (id)init;
-- (int)retornaNumeroIcones;
+- (NSInteger)retornaNumeroIcones;
 - (NSMutableArray *)retornaInfoIcones;
 - (NSDictionary *)retornaDictionaryPorIndice:(int)indice;
 -(void)ativarAnimacaoSecaoAtivada;

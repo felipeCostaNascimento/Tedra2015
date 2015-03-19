@@ -148,20 +148,21 @@
 }
 
 
--(void)setLabelEndereco:(int)numero{
+-(void)setLabelEndereco:(NSInteger)numero{
+    
     if(numero < 0){
         @throw [NSException exceptionWithName:@"Número de endereço inválido" reason:@"número informado é menor que zero." userInfo:nil];
     }
     
     //CONDIÇÕES PARA DEIXAR O ENDEREÇO SEMPRE COM 3 DIGITOS DEPOIS DO X
     if(numero < 10){
-        [lblEndereco setText:[NSString stringWithFormat:@"0x00%d", numero]];
+        [lblEndereco setText:[NSString stringWithFormat:@"0x00%zd", numero]];
     
     }else if(numero > 9 && numero < 100){
-        [lblEndereco setText:[NSString stringWithFormat:@"0x0%d", numero]];
+        [lblEndereco setText:[NSString stringWithFormat:@"0x0%zd", numero]];
     
     }else{
-        [lblEndereco setText:[NSString stringWithFormat:@"0x%d", numero]];
+        [lblEndereco setText:[NSString stringWithFormat:@"0x%zd", numero]];
     }
 }
 

@@ -39,7 +39,7 @@
     return [self sharedGerenciador];
 }
 
-- (Assunto *)retornaAssuntoIndice:(int)index{
+- (Assunto *)retornaAssuntoIndice:(NSInteger)index{
     
     return [titulosEDescricoesAssunto objectAtIndex:index];
     
@@ -47,7 +47,7 @@
 
 - (int)retornaQtdAssunto{
     
-    return titulosEDescricoesAssunto.count;
+    return (int) titulosEDescricoesAssunto.count;
 }
 
 - (void)instanciarConteudo{
@@ -59,7 +59,7 @@
     
 }
 
-- (void)assuntoSelecionado:(int)index{
+- (void)assuntoSelecionado:(NSInteger)index{
     
     assuntoSelecinado = [titulosEDescricoesAssunto objectAtIndex:index];
     

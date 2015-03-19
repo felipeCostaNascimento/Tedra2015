@@ -21,11 +21,11 @@
 }
 
 
-- (Assunto *)retornaAssuntoIndice:(int)index;
+- (Assunto *)retornaAssuntoIndice:(NSInteger)index;
 + (GerenciadorDeAssunto *)sharedGerenciador;
 - (int)retornaQtdAssunto;
 - (void)instanciarConteudo;
-- (void)assuntoSelecionado:(int)index;
+- (void)assuntoSelecionado:(NSInteger)index;
 - (UIImage *)retornaConteudo;
 - (NSString *)retornaTituloAssunto;
 @end

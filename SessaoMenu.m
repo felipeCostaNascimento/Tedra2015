@@ -69,7 +69,7 @@
 
 
 
-- (int)retornaNumeroIcones{
+- (NSInteger)retornaNumeroIcones{
     
     return self.tiposIcones.count;
     

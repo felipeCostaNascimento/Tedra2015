@@ -38,7 +38,7 @@
 
 -(id)initWithConteudo:(NSString*)conteudo nome:(NSString*)nome tipo:(NSString*)tipo tamanho:(CGSize)tamanho;
 
--(void)setLabelEndereco:(int)numero;
+-(void)setLabelEndereco:(NSInteger)numero;
 -(void)setLabelConteudo:(NSString*)text;
 -(void)setLabelNome:(NSString*)text;
 -(void)setLabelTipo:(NSString*)text;
