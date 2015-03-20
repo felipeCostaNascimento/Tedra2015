@@ -120,11 +120,13 @@
     
     [self criarViewBackground:vetorExercicios];
     //[self inicializarPageViewController:tempos nAcertos:nAcertos];
-    [self inicializarPageViewController:vetorExercicios];
+    
 }
 
 
 -(void)criarViewBackground:(NSArray *)vetorExercicios{
+    
+    
     [self setBlurView:[JCRBlurView new]];
     [[self blurView] setFrame:self.view.frame];
     [[self blurView] setAutoresizingMask:UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight];
@@ -141,6 +143,8 @@
     [txtDesempenho setFrame:CGRectMake(posX, 50, width, 88)];
     [self.blurView addSubview:txtDesempenho];
     
+    // inicializando PageController e EstatisticasView
+    [self inicializarPageViewController:vetorExercicios];
     
     //LABEL MENSAGEM AO USUÁRIO
     UILabel *txtMensagem = [[UILabel alloc] init];
